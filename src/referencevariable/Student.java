@@ -5,10 +5,10 @@ public class Student {
 	int studentId;
 	String studentName;
 	
-	Subject korea;		// 사용전 new로 생성자 생성해주기
-	Subject math;
+	Subject korea;		// Subject 클래스 인스턴스 korea 생성
+	Subject math;		// 사용전 new로 생성자 생성해줘야한다.
 	
-	Student(int studentId, String StudentName){
+	Student(int studentId, String StudentName){			// Student의 생성자, 동시에 Subject 생성자 생성
 		this.studentId = studentId;
 		this.studentName = StudentName;
 		
