@@ -7,6 +7,5 @@ public class TestReprt {
 		String builder = report.getReport();
 		
 		System.out.println(builder);
-		
 	}
 }
