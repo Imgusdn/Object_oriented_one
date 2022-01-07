@@ -9,7 +9,7 @@ public class EmployeeTest {
 		Employee employeeKim = new Employee();
 		employeeKim.setEmployeeName("±Ë¿ØΩ≈");
 		
-		System.out.println(Employee.serialNum);
+		System.out.println(Employee.getSerialNum());
 				
 		System.out.println(employeeLee.getEmployeeName() + "," + employeeLee.getEmployeeId());
 		System.out.println(employeeKim.getEmployeeName() + "," + employeeKim.getEmployeeId());
