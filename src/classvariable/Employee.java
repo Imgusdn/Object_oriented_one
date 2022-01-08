@@ -1,7 +1,7 @@
 package classvariable;
 
-public class Employee {
-	
+class Employee {
+
 	private static int serialNum = 1000;
 	// 멤버변수는 인스턴스 생성 후 사용이 가능한 반면, 클래스 변수인 static은 인스턴스 생성없이 Employee.serialNum으로 사용 가능하다.
 	private int employeeId;
